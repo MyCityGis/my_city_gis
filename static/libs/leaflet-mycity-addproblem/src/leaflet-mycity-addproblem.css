@@ -1,0 +1,54 @@
+.leaflet-left {
+    left: 50%;
+
+}
+.addproblem{
+	width: 100px;
+	height: 35px;
+    border-top-left-radius: 35px;
+    border-top-right-radius: 35px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    transform: translate(-50%);
+    background-color: #3a3d45;
+    border-color: #3a3d45;
+
+}
+.leaflet-left .leaflet-control{
+	margin-left: 0px;
+	margin-bottom: 0px;
+}
+.pushed{
+	background-color: #535e7d;
+}
+.leaflet-popup-content{
+	/*width:100px;*/
+}
+.leaflet-control-zoom-in{
+	background-color: #3a3d45 !important;
+    color: #fff !important;
+    border-top-left-radius: 10px !important;
+    border-top-right-radius: 10px !important; 
+}
+.leaflet-control-zoom-out{
+	background-color: #3a3d45 !important;
+    color: #fff !important;
+    border-bottom-left-radius: 10px !important;
+    border-bottom-right-radius: 10px !important; 
+}
+.leaflet-touch .leaflet-control-layers, .leaflet-touch .leaflet-bar{
+	border: none;
+}
+.leaflet-touch .leaflet-bar a {
+    width: 38px;
+    height: 33px;
+    line-height: 30px;
+}
+.btnadd{
+	background-color: #3a3d45 !important;
+	color:#fff !important;
+}
+.btnadd:hover{
+	background-color: #535e7d !important;
+	color:#fff !important;
+}
